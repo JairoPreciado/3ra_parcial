@@ -55,13 +55,13 @@ int main (){
 int num = 0;
          struct nodo* raiz = NULL;
          raiz = nuevoNodo(8);
-         insertarNodo(raiz,3);
-         insertarNodo(raiz,20);
-         insertarNodo(raiz,5);
+         insertarNodo(raiz,1);
+         insertarNodo(raiz,12);
          insertarNodo(raiz,6);
          insertarNodo(raiz,9);
+         insertarNodo(raiz,14);
          insertarNodo(raiz,11);
-         insertarNodo(raiz,16);
+         insertarNodo(raiz,7);
 
         printf("Ingresa un numero a encontrar: ");
         scanf("%d", &num);
